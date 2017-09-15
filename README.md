@@ -11,6 +11,7 @@ project
   project:fix-rights           Fix permissions
   project:generate-deploy-key  Generate deploy key
   project:get-deploy-key       Get deploy key
+  
  ubuntu
   ubuntu:add-user              Add new user, set authorized_keys as same as root's and set permissions
   ubuntu:install-nginx         Install Nginx
@@ -19,7 +20,7 @@ project
   ubuntu:real-ip               Get real IP addresses
   ubuntu:reboot                Reboot server
   ubuntu:service-restart       Restart service. --service input option is required
-  ubuntu:update                Updates, upgrades, and autoremoves Ubuntu packages 
+  ubuntu:update                Update, upgrade, and autoremove Ubuntu packages 
 ```
 
 ## Usage
