@@ -20,7 +20,7 @@ task('ubuntu:install-php71', function () {
     $result = run(
         'apt-get -y update && apt-get install composer php7.1-fpm php7.1-opcache ' . get('php-packages', '') . ' -y',
         [
-            'timeout' => get('command-timeout'),
+            'timeout' => get('command-timeout',1800),
         ]
     );
     writeln('<info>Install PHP-FPM: </info>' . $result);
