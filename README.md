@@ -44,7 +44,6 @@ vendor/bin/dep init
 
 require_once 'deployer_tasks/tasks.php';
 require_once 'deployer_recipes/recipes.php';
-
 ```
 3. Run your command
 ```bash
