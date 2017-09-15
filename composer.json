@@ -21,7 +21,7 @@
       "email": "mehmet@mkorkmaz.com"
     }
   ],
-  "require-dev": {
+  "require": {
     "deployer/deployer": "^6.0"
   },
   "minimum-stability": "stable",
