@@ -1,6 +1,6 @@
 # Deployer Tasks & Recipes
 
-## Requiremnts
+## Requirements
 - PHP 7.1+
 - [Deployer 5+](https://deployer.org/) 
 
