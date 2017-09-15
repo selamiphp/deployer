@@ -43,10 +43,10 @@ vendor/bin/dep init
 <?php
 
 require_once 'deployer-tasks/tasks.php';
-require_once 'deployer-recipes/recipes.php';
+require_once 'deployer_recipes/recipes.php';
 
 ```
 3. Run your command
 ```bash
-vendor/bin/dep ubuntu:private-ip
+vendor/bin/dep ubuntu:private-ip stage/production
 ```
