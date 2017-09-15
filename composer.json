@@ -1,0 +1,33 @@
+{
+  "name": "selami/deployer-recipes",
+  "description": "3rd party deployer recipes",
+  "type": "library",
+  "keywords": [
+    "deployer",
+    "recipes",
+    "deploy",
+    "deployment",
+    "nginx",
+    "php",
+    "php-fpm",
+    "php71",
+    "ubuntu"
+  ],
+  "homepage": "https://github.com/selamiphp/deployer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mehmet Korkmaz",
+      "email": "mehmet@mkorkmaz.com"
+    }
+  ],
+  "require-dev": {
+    "deployer/deployer": "^6.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "autoload.php"
+    ]
+  }
+}

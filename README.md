@@ -4,6 +4,12 @@
 - PHP 7.1+
 - [Deployer 5+](https://deployer.org/) 
 
+## Installation 
+
+```bash
+composer require selami/deployer-recipes
+```
+
 ## Added tasks
 
 ```bash
@@ -25,11 +31,22 @@ project
 
 ## Usage
 
-Just include task and recipe files in your *deploy.php*
+1. Init your deployer project
+
+
+```bash
+vendor/bin/dep init
+```
+2. Add tasks and recipes to your deploy.php created by 'dep init'
 
 ```php
+<?php
 
-require_once '/path/to/repository/clone/tasks/tasks.php';
-require_once '/path/to/repository/clone/recipes/recipes.php';
+require_once 'deployer-tasks/tasks.php';
+require_once 'deployer-recipes/recipes.php';
 
+```
+3. Run your command
+```bash
+vendor/bin/dep ubuntu:private-ip
 ```
