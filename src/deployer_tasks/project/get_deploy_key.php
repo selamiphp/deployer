@@ -8,5 +8,5 @@ use Deployer\Task\Context;
 desc('Get deploy key');
 task('project:get-deploy-key', function () {
     $result = run('more '.get('deploy-user-home').'/.ssh/id_rsa.pub');
-    writeln('<info>Deploy key: </info>' . $result);
+    writeln('<info>Deploy key for </info>'.Context::get()->getHost()->getHostname(). ': ' . $result);
 })->onRoles('app');
